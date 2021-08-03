@@ -27,7 +27,7 @@ jobs:
       run: |
         ...
     - name: Commit & Push changes
-      uses: actions-js/push@master
+      uses: MyJetWallet/push@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
